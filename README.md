@@ -1,4 +1,4 @@
-# 🛰️ Drone Telemetry System with MAVLink, RF24, and ESP Web Dashboard
+# 🛰️ UAV-based Environmental Telemetry and Tracking System
 
 This project is a **drone telemetry pipeline** that collects **sensor and GPS data** from a Pixhawk-equipped drone and transmits it wirelessly to a **Ground Control Station (GCS)** and ultimately to a **web dashboard**.
 
