@@ -100,20 +100,6 @@ This gives you flexibility based on whether you want wireless transmission to th
 
 ---
 
-## 📂 File Structure
-
-drone_telemetry/
-├── drone_arduino.ino # MAVLink + sensor transmitter
-├── ground_arduino.ino # NRF24L01 receiver + serial forwarder
-├── esp8266_client.ino # Serial forwarder to server (optional)
-├── server.py # Flask WebSocket server
-├── templates/
-│ └── index.html # Web dashboard UI
-└── README.md # You're here
-
-
----
-
 ## ✅ To-Do / Improvements
 
 - Add GPS map plotting in HTML (Leaflet.js or Google Maps)
