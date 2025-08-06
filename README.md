@@ -2,6 +2,8 @@
 
 This project is a **drone telemetry pipeline** that collects **sensor and GPS data** from a Pixhawk-equipped drone and transmits it wirelessly to a **Ground Control Station (GCS)** and ultimately to a **web dashboard**.
 
+<img width="956" height="474" alt="image" src="https://github.com/user-attachments/assets/3bdcb156-81e8-4f48-8db4-38c887a96600" />
+
 ---
 
 ### 🔧 Project Overview
@@ -110,8 +112,7 @@ This gives you flexibility based on whether you want wireless transmission to th
 ---
 
 ## 📷 Preview
-
-Coming soon...
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/8014eca6-3e4f-4597-b947-eba22e8dd467" />
 
 ---
 
