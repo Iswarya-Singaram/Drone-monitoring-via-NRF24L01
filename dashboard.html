@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Telemetry Dashboard</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sensor-panel">
+            <h1>Drone Telemetry Dashboard</h1>
+            
+            <div class="sensor-card">
+                <h2>Distance</h2>
+                <div class="sensor-value" id="distance-value">--</div>
+                <div class="sensor-unit">cm</div>
+            </div>
+            
+            <div class="sensor-card">
+                <h2>Temperature</h2>
+                <div class="sensor-value" id="temperature-value">--</div>
+                <div class="sensor-unit">°C</div>
+            </div>
+            
+            <div class="sensor-card">
+                <h2>Humidity</h2>
+                <div class="sensor-value" id="humidity-value">--</div>
+                <div class="sensor-unit">%</div>
+            </div>
+            
+            <div class="sensor-card">
+                <h2>GPS Status</h2>
+                <div class="status-indicator" id="gps-status"></div>
+                <div id="gps-coords">
+                    <div>Lat: <span id="latitude-value">--</span></div>
+                    <div>Lng: <span id="longitude-value">--</span></div>
+                    <div>Alt: <span id="altitude-value">--</span> m</div>
+                </div>
+            </div>
+            
+            <div class="sensor-card">
+                <h2>Heartbeat</h2>
+                <div class="status-indicator" id="heartbeat-status"></div>
+                <div id="heartbeat-message">Pixhawk connection</div>
+            </div>
+            
+            <div class="timestamp" id="last-update">Last update: --</div>
+        </div>
+        
+        <div class="map-panel">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

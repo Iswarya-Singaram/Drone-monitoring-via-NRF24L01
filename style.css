@@ -1,0 +1,12 @@
+/* Additional styles can go here */
+.leaflet-container {
+    background-color: #222;
+}
+
+.leaflet-popup-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+    border-radius: 6px;
+}
