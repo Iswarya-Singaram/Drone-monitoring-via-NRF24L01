@@ -6,6 +6,8 @@ This project is a **drone telemetry pipeline** that collects **sensor and GPS da
 
 ---
 
+Note: Refer https://github.com/Iswarya-Singaram/Arduino-and-Pixhawk-Interfacing this link to know how to interface Arduino and Pixhawk
+
 ### 🔧 Project Overview
 
 - The **Drone Arduino** reads:
